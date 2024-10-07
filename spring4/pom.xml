@@ -28,23 +28,23 @@
   <name>Feign Spring4</name>
   <description>Feign Contracts for Spring4</description>
 
+  <distributionManagement>
+    <relocation>
+      <artifactId>feign-spring</artifactId>
+    </relocation>
+  </distributionManagement>
+
   <properties>
     <main.basedir>${project.basedir}/..</main.basedir>
 
     <spring.version>4.3.30.RELEASE</spring.version>
   </properties>
 
-  <distributionManagement>
-    <relocation>
-      <artifactId>feign-spring</artifactId>
-    </relocation>
-  </distributionManagement>
-  
   <dependencies>
-  <dependency>
-   <groupId>io.github.openfeign</groupId>
-  <artifactId>feign-spring</artifactId>
-    <version>${project.version}</version>
-  </dependency>
+    <dependency>
+      <groupId>io.github.openfeign</groupId>
+      <artifactId>feign-spring</artifactId>
+      <version>${project.version}</version>
+    </dependency>
   </dependencies>
 </project>
